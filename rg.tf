@@ -3,6 +3,7 @@ resource "azurerm_resource_group" "rg" {
     location = "eastus"
     tags = {
       name ="xyz"
+      name ="abc"
     }
   
 }
